@@ -9,6 +9,11 @@ export default function categories(){
             justify-content:space-between;
             flex-wrap:wrap;
             width:100%;
+        }
+        :responsive{
+            flex-direction:column;
+            max-height:120px;
+            overflow-x:scroll;
         }`
 
     const categories = cE("div", style)

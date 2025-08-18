@@ -6,6 +6,10 @@ export default function title(t){
             overflow-x:scroll;
             width:30%;
             max-height:100%;
+        }
+        :responsive{
+            width:60%;
+            font-size:12px;
         }`
 
     const title = cE('div', style)

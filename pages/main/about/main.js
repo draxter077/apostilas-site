@@ -9,6 +9,10 @@ export default function about(){
             justify-content:space-between;
             align-items:center;
             width:90%;
+        }
+        :responsive{
+            flex-direction:column-reverse;
+            width:95%;
         }`
 
     const about = cE("div", style)

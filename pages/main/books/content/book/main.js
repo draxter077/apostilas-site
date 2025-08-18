@@ -16,6 +16,9 @@ export default function book(b){
             padding:5px 10px;
             box-shadow:0px 0px 2px 0px black;
             border-radius:5px;
+        }
+        :responsive{
+            width:120px;
         }`
 
     const book = cE("div", style)

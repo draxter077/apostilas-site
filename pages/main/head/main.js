@@ -10,7 +10,10 @@ export default function head(){
             justify-content:space-around;
             width:100%;
             padding:10px;
-            border-bottom:1px solid red;
+            border-bottom:1px solid black;
+        }
+        :responsive{
+            flex-direction:column;
         }`
 
     const head = cE("div", style)

@@ -14,6 +14,11 @@ export default function product(b){
             height:20%;
             padding:5px 0px;
             border-bottom:1px solid black;
+        }
+        :responsive{
+            height:30%;
+            flex-wrap:wrap;
+            overflow-y:scroll;
         }`
 
     const product = cE("div", style)

@@ -9,6 +9,7 @@ export default function body(b){
             padding:10px 0px 0px 0px;
             height:100%;
             width:100%;
+            overflow:hidden;
         }`
 
     const body = cE("div", style)

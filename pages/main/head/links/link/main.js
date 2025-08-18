@@ -5,8 +5,11 @@ export default function link(t){
             font-size:20px;
             color:black;
             margin:0px 10px;
-            padding:1px 3px;
+            padding:2px 5px;
             cursor:pointer;
+        }
+        :responsive{
+            font-size:15px;
         }
         ::after{
             position:absolute;

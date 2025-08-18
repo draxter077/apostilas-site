@@ -10,6 +10,9 @@ export default function button(b){
             cursor:pointer;
             transition:background 0.5s;
         }
+        :responsive{
+            font-size:10px;
+        }
         :hover{
             background:orange;
         }`

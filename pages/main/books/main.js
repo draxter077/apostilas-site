@@ -9,6 +9,9 @@ export default function books(){
             width:90%;
             height:100svh;
             margin:5vh 0px;
+        }
+        :responsive{
+            width:95%;
         }`
 
     const books = cE("div", style)

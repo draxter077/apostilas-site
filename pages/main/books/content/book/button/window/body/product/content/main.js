@@ -7,6 +7,10 @@ export default function content(t){
             width:30%;
             max-height:100%;
             text-align:justify;
+        }
+        :responsive{
+            font-size:12px;
+            width:60%;
         }`
 
     const content = cE('div', style)

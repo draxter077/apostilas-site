@@ -3,6 +3,9 @@ export default function title(t){
         {
             font-size:14px;
             color:white;
+        }
+        :responsive{
+            font-size:11px;
         }`
 
     const title = cE("div", style)

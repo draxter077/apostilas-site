@@ -7,6 +7,9 @@ export default function input(){
             border-bottom:1px solid var(--colorBlack);
             width:100%;
         }
+        :responsive{
+            font-size:15px;
+        }
         ::placeholder{
             font-style:italic;
         }`

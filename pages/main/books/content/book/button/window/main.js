@@ -9,8 +9,8 @@ export default function window(b){
             left:1%;
             display:flex;
             flex-direction:column;
-            width:98%;
-            height:98%;
+            width:98vw;
+            height:98svh;
             background:var(--colorWhite);
             box-shadow:0px 0px 50px 0px var(--colorBlack);
             border-radius:5px;

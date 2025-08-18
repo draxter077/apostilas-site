@@ -3,6 +3,9 @@ export default function price(p){
         {
             font-size:25px;
             color:black;
+        }
+        :responsive{
+            font-size:18px;
         }`
 
     const price = cE("div", style)

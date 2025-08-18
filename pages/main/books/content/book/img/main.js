@@ -3,6 +3,9 @@ export default function img(src){
         {
             height:60%;
             border-radius:5px;
+        }
+        :responsive{
+            height:40%;
         }`
 
     const img = cE("img", style)

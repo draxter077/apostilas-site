@@ -15,6 +15,9 @@ export default function category(t){
             cursor:pointer;
             transition:background 0.5s;
         }
+        :responsive{
+            height:25px;
+        }
         :hover{
             background:orange;
         }`

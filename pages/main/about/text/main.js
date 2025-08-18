@@ -11,6 +11,11 @@ export default function text(){
             background:blue;
             color:var(--colorWhite);
             border-radius:5px;
+        }
+        :responsive{
+            width:100%;
+            font-size:13px;
+            margin:10px 0px 0px 0px;
         }`
 
     const text = cE("div", style)
