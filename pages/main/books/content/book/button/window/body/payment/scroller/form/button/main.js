@@ -72,8 +72,8 @@ export default function button(b){
                         e.target.parentElement.parentElement.style.transform = "translateX(-50%)"
                     })
                     .catch(r => {
-                        if(r.response.status == 401){
-                            showWindow("CNPJ não encontrado")
+                        if(r.response.status == 404){
+                            showWindow("Estamos com um problema na geração do pagamento. Aguarde alguns minutos para tentar novamente")
                             inputError(cnpj)
                         }
                         else{
