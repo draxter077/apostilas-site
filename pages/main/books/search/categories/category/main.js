@@ -10,7 +10,8 @@ export default function category(t){
             height:35px;
             padding:5px 7px;
             margin:5px 2px;
-            background:blue;
+            background:var(--colorYellow);
+            box-shadow:0px 0px 1px 0px var(--colorBlack);
             border-radius:5px;
             cursor:pointer;
             transition:background 0.5s;
@@ -25,5 +26,14 @@ export default function category(t){
     const category = cE("div", style)
     category.appendChild(img(`/assets/${t.toLowerCase()}.png`))
     category.appendChild(title(t))
+    
+    category.addEventListener(
+        "click",
+        (e) => {
+            let input = e.target.parentElement.parentElement.parentElement.children[0]
+            input.value = t
+            input.click()
+        }
+    )
     return(category)
 }

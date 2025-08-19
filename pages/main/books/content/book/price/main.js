@@ -2,7 +2,7 @@ export default function price(p){
     let style = `
         {
             font-size:25px;
-            color:black;
+            color:var(--colorBlack);
         }
         :responsive{
             font-size:18px;

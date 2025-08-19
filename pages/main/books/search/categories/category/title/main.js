@@ -2,7 +2,7 @@ export default function title(t){
     let style = `
         {
             font-size:14px;
-            color:white;
+            color:var(--colorBlack);
         }
         :responsive{
             font-size:11px;

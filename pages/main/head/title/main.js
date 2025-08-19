@@ -1,15 +1,16 @@
+import logo from "./logo/main.js"
+import name from "./name/main.js"
+
 export default function title(){
     let style = `
         {
-            font-size:30px;
-            color:black;
-        }
-        :responsive{
-            font-size:25px;
-            margin:0px 0px 10px 0px;
+            display:flex;
+            flex-direction:row;
+            align-items:center;
         }`
 
     const title = cE("div", style)
-    title.innerHTML = "Prof. Adão José"
+    title.appendChild(logo())
+    title.appendChild(name())
     return(title)
 }

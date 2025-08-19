@@ -15,7 +15,7 @@ export default function button(b){
             font-size:12px;
         }
         :hover{
-            background:blue;
+            background:var(--colorGreen);
         }`
 
     const button = cE("button", style)
@@ -41,7 +41,7 @@ export default function button(b){
             async function inputError(ipt){
                 ipt.style.borderBottom = "1px solid red"
                 await new Promise(resolve => setTimeout(resolve, 550))
-                ipt.style.borderBottom = "1px solid blue"
+                ipt.style.borderBottom = "1px solid var(--colorOrange)"
             }
 
             let forms = e.target.parentElement.children[1].children

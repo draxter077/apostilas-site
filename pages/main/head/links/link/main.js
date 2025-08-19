@@ -3,7 +3,7 @@ export default function link(t){
         {
             position:relative;
             font-size:20px;
-            color:black;
+            color:var(--colorWhite);
             margin:0px 10px;
             padding:2px 5px;
             cursor:pointer;
@@ -18,7 +18,7 @@ export default function link(t){
             content:"";
             width:0%;
             height:1px;
-            background:black;
+            background:var(--colorWhite);
             transition:width 0.5s;
         }
         :hover::after{

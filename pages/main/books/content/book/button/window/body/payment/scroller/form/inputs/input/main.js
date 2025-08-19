@@ -2,7 +2,7 @@ export default function input(t){
     let style = `
         {
             width:100%;
-            border-bottom:1px solid blue;
+            border-bottom:1px solid var(--colorOrange);
             padding:5px 10px;
             font-size:17px;
             margin:5px 0px;
@@ -12,7 +12,7 @@ export default function input(t){
             font-size:14px;
         }
         :hover,:focus{
-            border-bottom:1px solid orange;
+            border-bottom:1px solid var(--colorGreen) !important;
         }
         ::placeholder{
             font-style:italic;

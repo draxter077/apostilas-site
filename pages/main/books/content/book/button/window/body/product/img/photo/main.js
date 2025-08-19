@@ -1,12 +1,9 @@
 export default function photo(src){
     let style = `
         {
-            height:80%;
+            height:60%;
             box-shadow:0px 0px 1px 0px black;
             border-radius:5px;
-        }
-        :responsive{
-            height:60%;
         }`
 
     const photo = cE("img", style)

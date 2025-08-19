@@ -169,12 +169,19 @@ cE("root", `html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquo
     :root{
     	--colorWhite:rgb(255, 255, 255);
     	--colorBlack:rgb(0, 0, 0);
+        --colorYellow:rgb(250, 234, 17);
+        --colorOrange:rgb(235, 131, 56);
+        --colorGreen:rgb(114, 235, 70);
     	--transitionTime:0.5s;
     	--animationDelay0:0s;
     }
+    @font-face{
+        font-family:"Quicksand";
+        src:url("./assets/font/Quicksand_Book.otf");
+    }
     body{
     	box-sizing:border-box;
-    	font-family:system-ui;
+    	font-family:"Quicksand";
     	background:var(--colorWhite);
     	cursor:default;
 	    user-select:none;

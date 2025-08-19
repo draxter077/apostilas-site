@@ -9,6 +9,7 @@ export default function categories(){
             justify-content:space-between;
             flex-wrap:wrap;
             width:100%;
+            margin:0px 0px 15px 0px;
         }
         :responsive{
             flex-direction:column;
@@ -17,29 +18,16 @@ export default function categories(){
         }`
 
     const categories = cE("div", style)
-    categories.appendChild(category("Matemática"))
-    categories.appendChild(category("Matemática"))
-    categories.appendChild(category("Matemática"))
-    categories.appendChild(category("Matemática"))
-    categories.appendChild(category("Matemática"))
-    categories.appendChild(category("Matemática"))
-    categories.appendChild(category("Matemática"))
-    categories.appendChild(category("Matemática"))
-    categories.appendChild(category("Matemática"))
-    categories.appendChild(category("Matemática"))
-    categories.appendChild(category("Matemática"))
-    categories.appendChild(category("Matemática"))
-    categories.appendChild(category("Matemática"))
-    categories.appendChild(category("Matemática"))
-    categories.appendChild(category("Matemática"))
-    categories.appendChild(category("Matemática"))
-    categories.appendChild(category("Matemática"))
-    categories.appendChild(category("Matemática"))
-    categories.appendChild(category("Matemática"))
-    categories.appendChild(category("Matemática"))
-    categories.appendChild(category("Matemática"))
-    categories.appendChild(category("Matemática"))
-    categories.appendChild(category("Matemática"))
+    categories.appendChild(category("Português"))
+    categories.appendChild(category("Redação"))
+    categories.appendChild(category("História"))
+    categories.appendChild(category("Geografia"))
+    categories.appendChild(category("Sociologia"))
+    categories.appendChild(category("Filosofia"))
+    categories.appendChild(category("Religião"))
+    categories.appendChild(category("Biologia"))
+    categories.appendChild(category("Física"))
+    categories.appendChild(category("Química"))
     categories.appendChild(category("Matemática"))
     return(categories)
 }

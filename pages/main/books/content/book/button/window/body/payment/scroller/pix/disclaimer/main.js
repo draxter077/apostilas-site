@@ -12,6 +12,6 @@ export default function disclaimer(){
         }`
 
     const disclaimer = cE("div", style)
-    disclaimer.innerHTML = "Aqui estão as instruções de pagamento. Elas também foram enviadas pelo seu e-mail. Confirme que recebeu antes de continuar (verifique seu spam).<br>Em até 24h úteis após o pagamento, você receberá por e-mail a sua apostila! Quaisquer dúvidas, entre em contato pelo e-mail, WhatsApp ou Instagram, cujos links estão disponíveis ao longo dessa página e no e-mail enviado."
+    disclaimer.innerHTML = "Aqui estão as instruções de pagamento. Elas também foram enviadas pelo seu e-mail.<br>Em até 24h úteis após o pagamento, você receberá por e-mail a sua apostila (verifique seu spam)!<br>Quaisquer dúvidas, entre em contato pelos links que estão disponíveis ao longo dessa página e no e-mail enviado."
     return(disclaimer)
 }

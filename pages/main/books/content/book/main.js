@@ -10,18 +10,23 @@ export default function book(b){
             flex-direction:column;
             justify-content:space-between;
             align-items:center;
-            height:48%;
-            width:180px;
+            height:49%;
+            width:200px;
             margin:0px 5px;
-            padding:5px 10px;
-            box-shadow:0px 0px 2px 0px black;
+            padding:10px;
+            box-shadow:0px 0px 2px 0px var(--colorBlack);
             border-radius:5px;
+            transition:transform 0.5s;
+        }
+        :hover{
+            transform:scale(1.025);
         }
         :responsive{
             width:120px;
         }`
 
     const book = cE("div", style)
+    book.title = b.title
     book.appendChild(img(b.src))
     book.appendChild(title(b.title))
     book.appendChild(price(b.price))

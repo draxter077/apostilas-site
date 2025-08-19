@@ -10,7 +10,8 @@ export default function head(){
             justify-content:space-around;
             width:100%;
             padding:10px;
-            border-bottom:1px solid black;
+            background:var(--colorOrange);
+            box-shadow:0px 0px 5px 0px var(--colorOrange);
         }
         :responsive{
             flex-direction:column;

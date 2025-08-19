@@ -11,6 +11,6 @@ export default function disclaimer(){
         }`
 
     const disclaimer = cE("div", style)
-    disclaimer.innerHTML = "Para completar o pedido, insira seu nome, e-mail e telefone. Essas informações são necessárias para podermos enviar o PDF da apostila para você, preferencialmente via e-mail"
+    disclaimer.innerHTML = "Para completar o pedido, insira seu nome, e-mail e telefone. Essas informações são necessárias para podermos enviar o PDF da apostila para você e entrar em contato caso algo dê errado"
     return(disclaimer)
 }

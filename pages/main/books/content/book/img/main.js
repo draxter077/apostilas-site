@@ -1,7 +1,7 @@
 export default function img(src){
     let style = `
         {
-            height:60%;
+            height:50%;
             border-radius:5px;
         }
         :responsive{

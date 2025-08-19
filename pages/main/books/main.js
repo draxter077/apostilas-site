@@ -8,7 +8,7 @@ export default function books(){
             flex-direction:column;
             width:90%;
             height:100svh;
-            margin:5vh 0px;
+            margin:7.5vh 0px;
         }
         :responsive{
             width:95%;

@@ -12,7 +12,6 @@ export default function product(b){
             justify-content:space-around;
             width:100%;
             height:20%;
-            padding:5px 0px;
             border-bottom:1px solid black;
         }
         :responsive{
