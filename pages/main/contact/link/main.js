@@ -5,13 +5,13 @@ export default function link(c, type, t){
     let style = `
         {
             display:flex;
-            flex-direction:column;
+            flex-direction:row;
             align-items:center;
             justify-content:center;
             width:30%;
             aspect-ratio:2;
             border-radius:10px;
-            background:${c};
+            box-shadow:0px 0px 2px 2px ${c};
         }
         :responsive{
             width:80%;

@@ -1,11 +1,12 @@
 export default function img(c, t){
     let style = `
         {
-            width:75px;
-            filter:${c == "var(--colorYellow)" ? "invert(0)" : "invert(1)"};
+            height:50px;
+            margin:0px 10px 0px 0px;
+            filter:invert(0);
         }
         :responsive{
-            width:50px;
+            height:40px;
         }`
 
     const img = cE("img", style)

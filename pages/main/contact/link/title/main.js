@@ -2,8 +2,7 @@ export default function title(c, t){
     let style = `
         {
             font-size:20px;
-            color:${c == "var(--colorYellow)" ? "var(--colorBlack)" : "var(--colorWhite)"};
-            margin:10px 0px 0px 0px;
+            color:var(--colorBlack);
         }
         :responsive{
             font-size:15px;
