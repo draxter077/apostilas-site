@@ -10,7 +10,7 @@ export default function window(b){
             display:flex;
             flex-direction:column;
             width:98vw;
-            height:98svh;
+            height:98dvh;
             background:var(--colorWhite);
             box-shadow:0px 0px 50px 0px var(--colorBlack);
             border-radius:5px;
