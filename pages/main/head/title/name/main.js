@@ -6,7 +6,6 @@ export default function name(){
         }
         :responsive{
             font-size:25px;
-            margin:0px 0px 10px 0px;
         }`
 
     const name = cE("div", style)

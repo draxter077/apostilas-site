@@ -23,8 +23,9 @@ export default function button(b){
         "click",
         () => {
             let link = document.createElement('a');
-            link.href = "https://apostilas.ph.net.br/preview/" + b.id + ".pdf"
-            link.download = b.title
+            link.href = "https://apostilas.ph.net.br/assets/preview/" + b.id + ".pdf"
+            link.download = b.title + ".pdf"
+            link.target = "_blank"
             link.click()
         }
     )

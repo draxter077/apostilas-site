@@ -7,6 +7,9 @@ export default function title(){
             display:flex;
             flex-direction:row;
             align-items:center;
+        }
+        :responsive{
+            margin:0px 0px 10px 0px;
         }`
 
     const title = cE("div", style)
