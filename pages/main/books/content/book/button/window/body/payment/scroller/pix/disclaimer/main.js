@@ -4,7 +4,7 @@ export default function disclaimer(){
             font-size:17px;
             color:black;
             width:80%;
-            text-align:justify;
+            text-align:center;
         }
         :responsive{
             font-size:12px;
