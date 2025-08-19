@@ -4,11 +4,12 @@ export default function copy(){
             font-size:17px;
             color:black;
             width:80%;
-            text-align:justify;
-            usre-select:text;
+            text-align:center;
+            user-select:text;
         }
         :responsive{
             font-size:12px;
+            width:90%;
         }`
 
     const copy = cE("div", style)

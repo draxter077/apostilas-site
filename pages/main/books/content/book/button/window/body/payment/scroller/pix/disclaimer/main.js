@@ -8,6 +8,7 @@ export default function disclaimer(){
         }
         :responsive{
             font-size:12px;
+            width:90%;
         }`
 
     const disclaimer = cE("div", style)

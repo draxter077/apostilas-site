@@ -1,5 +1,6 @@
 import disclaimer from "./disclaimer/main.js"
 import qrCode from "./qrCode/main.js"
+import copy from "./copy/main.js"
 
 export default function pix(){
     let style = `
@@ -15,5 +16,6 @@ export default function pix(){
     const pix = cE("div", style)
     pix.appendChild(disclaimer())
     pix.appendChild(qrCode())
+    pix.appendChild(copy())
     return(pix)
 }

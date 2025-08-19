@@ -63,7 +63,7 @@ export default function button(b){
                 inputError(phone)
             }
             else{
-                await axios.post(apiURL + "/main/post/newOrder", {fileID:b.id, filePrice:b.price, name:name.value, buyerMail:email.value, buyerPhone:phone.value})
+                await axios.post(apiURL + "/main/post/newOrder", {fileID:b.id, filePrice:b.price, buyerName:name.value, buyerMail:email.value, buyerPhone:phone.value})
                     .then(r => {
                         let pixWindow = e.target.parentElement.parentElement.children[1]
                         pixWindow.children[1].src = `https://api.qrserver.com/v1/create-qr-code/?data=${r.data.pixCode}&amp;size=150x150`
