@@ -171,7 +171,7 @@ cE("root", `html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquo
     	--colorBlack:rgb(0, 0, 0);
         --colorYellow:rgb(250, 234, 17);
         --colorOrange:rgb(235, 131, 56);
-        --colorGreen:rgb(114, 235, 70);
+        --colorGreen:rgb(114, 190, 70);
     	--transitionTime:0.5s;
     	--animationDelay0:0s;
     }
