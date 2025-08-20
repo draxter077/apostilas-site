@@ -11,8 +11,8 @@ export default function window(b){
             flex-direction:column;
             width:98vw;
             height:98dvh;
-            background:var(--colorWhite);
-            box-shadow:0px 0px 50px 0px var(--colorBlack);
+            background:var(--colorBlack);
+            box-shadow:0px 0px 2px 0px var(--colorWhite);
             border-radius:5px;
             padding:10px 15px;
             transform:translateX(-100%);

@@ -2,19 +2,19 @@ export default function button(b){
     let style = `
         {
             font-size:15px;
-            background:var(--colorOrange);
+            background:var(--colorBlue);
             padding:2px 5px;
             border-radius:5px;
-            color:white;
+            color:var(--colorWhite);
             margin:5px 0px 0px 0px;
             cursor:pointer;
-            transition:background 0.5s;
+            transition:transform 0.5s;
         }
         :responsive{
             font-size:10px;
         }
         :hover{
-            background:var(--colorBlack);
+            transform:translateY(-10%);
         }`
 
     const button = cE("button", style)

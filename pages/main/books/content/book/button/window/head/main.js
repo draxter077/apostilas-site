@@ -8,8 +8,6 @@ export default function head(){
             justify-content:flex-end;
             width:100%;
             height:fit-content;
-            padding:0px 0px 5px 0px;
-            border-bottom:1px solid var(--colorBlack);
         }`
 
     const head = cE("div", style)

@@ -2,7 +2,7 @@ export default function button(){
     let style = `
         {
             font-size:21px;
-            color:black;
+            color:var(--colorWhite);
             cursor:pointer;
             transition:transform 0.5s;
         }

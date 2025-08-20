@@ -2,7 +2,7 @@ export default function disclaimer(){
     let style = `
         {
             font-size:17px;
-            color:black;
+            color:var(--colorWhite);
             width:80%;
             text-align:center;
         }

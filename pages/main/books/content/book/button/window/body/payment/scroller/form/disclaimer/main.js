@@ -2,9 +2,9 @@ export default function disclaimer(){
     let style = `
         {
             font-size:17px;
-            color:black;
+            color:var(--colorWhite);
             width:80%;
-            text-align:justify;
+            text-align:center;
         }
         :responsive{
             font-size:12px;

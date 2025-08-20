@@ -1,8 +1,8 @@
-export default function title(c, t){
+export default function title(t){
     let style = `
         {
             font-size:20px;
-            color:var(--colorBlack);
+            color:var(--colorWhite);
         }
         :responsive{
             font-size:15px;

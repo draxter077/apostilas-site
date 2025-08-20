@@ -2,9 +2,10 @@ export default function input(t){
     let style = `
         {
             width:100%;
-            border-bottom:1px solid var(--colorOrange);
+            border-bottom:1px solid var(--colorBlue);
             padding:5px 10px;
             font-size:17px;
+            color:var(--colorWhite);
             margin:5px 0px;
             transition:border-bottom 0.5s;
         }
@@ -12,10 +13,11 @@ export default function input(t){
             font-size:14px;
         }
         :hover,:focus{
-            border-bottom:1px solid var(--colorGreen) !important;
+            border-bottom:1px solid var(--colorWhite) !important;
         }
         ::placeholder{
             font-style:italic;
+            color:var(--colorWhite);
         }`
 
     const input = cE("input", style)

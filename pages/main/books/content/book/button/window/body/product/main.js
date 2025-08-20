@@ -11,19 +11,23 @@ export default function product(b){
             align-items:center;
             justify-content:space-around;
             width:100%;
-            height:20%;
-            border-bottom:1px solid black;
+            height:30%;
+            padding:5px 0px;
+            background:var(--colorWhite);
+            border-radius:5px;
         }
         :responsive{
-            height:30%;
             flex-wrap:wrap;
             overflow-y:scroll;
+        }
+        ::-webkit-scrollbar-thumb{
+            background:var(--colorBlack);
         }`
 
     const product = cE("div", style)
     product.appendChild(img(b))
     product.appendChild(title(b.title))
-    product.appendChild(content(b.content))
     product.appendChild(price(b.price))
+    product.appendChild(content(b.content))
     return(product)
 }

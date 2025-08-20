@@ -2,13 +2,13 @@ export default function text(){
     let style = `
         {
             font-size:21px;
-            color:var(--colorBlack);
+            color:var(--colorWhite);
             text-align:justify;
             width:60%;
         }
         >span{
             padding:5px 10px;
-            background:var(--colorGreen);
+            background:var(--colorBlue);
             color:var(--colorBlack);
             border-radius:5px;
         }

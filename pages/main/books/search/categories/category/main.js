@@ -10,17 +10,17 @@ export default function category(t){
             height:35px;
             padding:5px 7px;
             margin:5px 2px;
-            background:var(--colorYellow);
-            box-shadow:0px 0px 1px 0px var(--colorBlack);
+            background:var(--colorBlue);
+            box-shadow:0px 0px 1px 0px var(--colorBlue);
             border-radius:5px;
             cursor:pointer;
-            transition:background 0.5s;
+            transition:transform 0.5s;
         }
         :responsive{
             height:25px;
         }
         :hover{
-            background:orange;
+            transform:translateY(-10%);
         }`
 
     const category = cE("div", style)

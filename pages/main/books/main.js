@@ -12,6 +12,7 @@ export default function books(){
         }
         :responsive{
             width:95%;
+            margin:2.5vh 0px;
         }`
 
     const books = cE("div", style)

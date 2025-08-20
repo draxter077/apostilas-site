@@ -8,7 +8,8 @@ export default function input(){
             padding:5px 10px;
             border-radius:5px;
             color:var(--colorBlack);
-            box-shadow:0px 0px 2px 0px var(--colorBlack);
+            box-shadow:0px 0px 2px 0px var(--colorWhite);
+            background:var(--colorWhite);
         }
         :responsive{
             font-size:15px;

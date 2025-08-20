@@ -3,7 +3,7 @@ export default function content(t){
         {
             font-size:17px;
             color:black;
-            overflow-x:scroll;
+            overflow-y:scroll;
             width:30%;
             max-height:100%;
             text-align:justify;
@@ -11,6 +11,9 @@ export default function content(t){
         :responsive{
             font-size:12px;
             width:60%;
+        }
+        ::-webkit-scrollbar-thumb{
+            background:var(--colorBlack);
         }`
 
     const content = cE('div', style)

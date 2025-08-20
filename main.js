@@ -167,11 +167,9 @@ cE("root", `html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquo
     blockquote:before, blockquote:after, q:before, q:after {content: '';content: none;}
     table {border-collapse: collapse;border-spacing: 0;}
     :root{
-    	--colorWhite:rgb(255, 255, 255);
-    	--colorBlack:rgb(0, 0, 0);
-        --colorYellow:rgb(250, 234, 17);
-        --colorOrange:rgb(235, 131, 56);
-        --colorGreen:rgb(114, 190, 70);
+    	--colorWhite:rgb(210, 210, 210);
+    	--colorBlack:rgb(20,30,45);
+        --colorBlue:rgb(80,130,190);
     	--transitionTime:0.5s;
     	--animationDelay0:0s;
     }
@@ -182,7 +180,7 @@ cE("root", `html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquo
     body{
     	box-sizing:border-box;
     	font-family:"Quicksand";
-    	background:var(--colorWhite);
+    	background:var(--colorBlack);
     	cursor:default;
 	    user-select:none;
     }
@@ -196,7 +194,7 @@ cE("root", `html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquo
     	margin:0px;
     }
     ::-webkit-scrollbar-thumb{
-        background:var(--colorOrange);
+        background:var(--colorWhite);
         border-radius:20px;
     }
     ::-webkit-scrollbar-button{

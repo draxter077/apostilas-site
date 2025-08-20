@@ -1,7 +1,7 @@
 import img from "./img/main.js"
 import title from "./title/main.js"
 
-export default function link(c, type, t){
+export default function link(type, t){
     let style = `
         {
             display:flex;
@@ -11,7 +11,7 @@ export default function link(c, type, t){
             width:30%;
             aspect-ratio:2;
             border-radius:10px;
-            box-shadow:0px 0px 2px 2px ${c};
+            box-shadow:0px 0px 2px 0px var(--colorWhite);
         }
         :responsive{
             width:80%;
@@ -19,7 +19,7 @@ export default function link(c, type, t){
         }`
 
     const link = cE("div", style)
-    link.appendChild(img(c, type))
-    link.appendChild(title(c, t))
+    link.appendChild(img(type))
+    link.appendChild(title(t))
     return(link)
 }

@@ -3,19 +3,20 @@ import window from "./window/main.js"
 export default function button(b){
     let style = `
         {
-            font-size:15px;
-            color:white;
+            font-size:17px;
+            color:var(--colorWhite);
             padding:5px 10px;
             border-radius:5px;
-            background:orange;
+            background:var(--colorBlue);
             cursor:pointer;
-            transition:background 0.5s;
+            transition:all 0.5s;
         }
         :responsive{
-            font-size:12px;
+            font-size:14px;
         }
         :hover{
-            background:var(--colorGreen);
+            background:var(--colorWhite);
+            color:var(--colorBlack);
         }`
 
     const button = cE("button", style)
@@ -41,7 +42,7 @@ export default function button(b){
             async function inputError(ipt){
                 ipt.style.borderBottom = "1px solid red"
                 await new Promise(resolve => setTimeout(resolve, 550))
-                ipt.style.borderBottom = "1px solid var(--colorOrange)"
+                ipt.style.borderBottom = "1px solid var(--colorBlue)"
             }
 
             let forms = e.target.parentElement.children[1].children

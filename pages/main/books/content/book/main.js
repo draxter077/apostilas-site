@@ -14,12 +14,8 @@ export default function book(b){
             width:200px;
             margin:0px 5px;
             padding:10px;
-            box-shadow:0px 0px 2px 0px var(--colorBlack);
+            box-shadow:0px 0px 2px 0px var(--colorWhite);
             border-radius:5px;
-            transition:transform 0.5s;
-        }
-        :hover{
-            transform:scale(1.025);
         }
         :responsive{
             width:120px;

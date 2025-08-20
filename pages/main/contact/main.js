@@ -17,8 +17,8 @@ export default function contact(){
 
     const contact = cE("div", style)
     contact.id = "Contato"
-    contact.appendChild(link("var(--colorOrange)", "email", "contato@ph.net.br"))
-    contact.appendChild(link("var(--colorYellow)", "whatsapp", "(41) 99501-4187"))
-    contact.appendChild(link("var(--colorGreen)","instagram", "@PhWebSoftware"))
+    contact.appendChild(link("email", "contato@ph.net.br"))
+    contact.appendChild(link("whatsapp", "(41) 99501-4187"))
+    contact.appendChild(link("instagram", "@PhWebSoftware"))
     return(contact)
 }

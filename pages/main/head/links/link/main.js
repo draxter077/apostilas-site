@@ -4,25 +4,15 @@ export default function link(t){
             position:relative;
             font-size:20px;
             color:var(--colorWhite);
-            margin:0px 10px;
-            padding:2px 5px;
+            margin:0px 20px;
             cursor:pointer;
+            transition:transform 0.5s;
         }
         :responsive{
             font-size:15px;
         }
-        ::after{
-            position:absolute;
-            bottom:0%;
-            left:0%;
-            content:"";
-            width:0%;
-            height:1px;
-            background:var(--colorWhite);
-            transition:width 0.5s;
-        }
-        :hover::after{
-            width:100%;
+        :hover{
+            transform:translateY(10%);
         }`
 
     const link = cE("div", style)

@@ -3,20 +3,21 @@ import window from "./window/main.js"
 export default function button(b){
     let style = `
         {
-            font-size:12px;
+            font-size:15px;
             padding:5px 10px;
             border-radius:5px;
-            background:var(--colorOrange);
-            color:white;
+            background:var(--colorBlue);
+            color:var(--colorWhite);
             width:100%;
             cursor:pointer;
-            transition:background 0.5s;
+            transition:all 0.5s;
         }
         :responsive{
-            font-size:10px;
+            font-size:12px;
         }
         :hover{
-            background:var(--colorBlack);
+            background:var(--colorWhite);
+            color:var(--colorBlack);
         }`
 
     const button = cE("button", style)
