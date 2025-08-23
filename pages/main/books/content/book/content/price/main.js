@@ -5,7 +5,7 @@ export default function price(p){
             flex-direction:row;
             align-items:flex-end;
             font-size:25px;
-            color:var(--colorWhite);
+            color:var(--colorBlack);
         }
         >h1{
             font-size:15px;
