@@ -18,7 +18,7 @@ export default function button(b){
         }`
 
     const button = cE("button", style)
-    button.innerHTML = "Veja uma amostra de dentro"
+    button.innerHTML = "Veja as cinco primeiras páginas"
     button.addEventListener(
         "click",
         () => {

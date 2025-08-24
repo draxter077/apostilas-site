@@ -24,7 +24,7 @@ export default function category(t){
         }`
 
     const category = cE("div", style)
-    category.appendChild(img(`/assets/${t.toLowerCase()}.png`))
+    category.appendChild(img(`/assets/elements/${t.toLowerCase()}.png`))
     category.appendChild(title(t))
     
     category.addEventListener(
