@@ -1,12 +1,11 @@
 export default function img(src){
     let style = `
         {
-            position:absolute;
-            top:0%;
-            left:0%;
-            width:100%;
-            z-index:-1;
+            height:50%;
             border-radius:5px;
+        }
+        :responsive{
+            height:40%;
         }`
 
     const img = cE("img", style)

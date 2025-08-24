@@ -2,7 +2,7 @@ export default function title(t){
     let style = `
         {
             font-size:18px;
-            color:var(--colorBlack);
+            color:var(--colorWhite);
             max-height:50px;
             width:100%;
             overflow:hidden;

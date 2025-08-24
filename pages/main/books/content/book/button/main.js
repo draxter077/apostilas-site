@@ -16,7 +16,8 @@ export default function button(b){
             font-size:12px;
         }
         :hover{
-            background:var(--colorBlack);
+            background:var(--colorWhite);
+            color:var(--colorBlack);
         }`
 
     const button = cE("button", style)

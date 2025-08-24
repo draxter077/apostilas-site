@@ -9,7 +9,6 @@ export default function text(){
         >span{
             padding:5px 10px;
             background:var(--colorBlue);
-            color:var(--colorBlack);
             border-radius:5px;
         }
         :responsive{
@@ -19,6 +18,6 @@ export default function text(){
         }`
 
     const text = cE("div", style)
-    text.innerHTML = "<span>Somos um marketplace de apostilas.</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+    text.innerHTML = "<span>Criado por professores, feito para professores.</span> Nós entendemos os desafios da sala de aula, as noites revisando planos de aula e a busca constante por materiais didáticos que realmente engajem os alunos. Foi exatamente por isso que criamos este marketplace de apostilas: um espaço seguro e prático onde a experiência de um professor se encontra com a necessidade de outro. Somos uma comunidade. Aqui, professores experientes podem compartilhar seu trabalho, transformando suas apostilas em uma fonte de renda extra; enquanto outros encontram recursos de alta qualidade, prontos para uso, economizando tempo precioso. Nossa missão é fortalecer a educação, um material por vez. Todos os recursos em nosso site são criados por profissionais como você, que entendem as nuances do ensino. Nosso objetivo é oferecer não apenas apostilas, mas soluções práticas que tornem sua vida mais fácil e suas aulas mais dinâmicas."
     return(text)
 }
