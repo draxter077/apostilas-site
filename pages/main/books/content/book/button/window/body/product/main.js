@@ -21,7 +21,7 @@ export default function product(b){
             overflow-y:scroll;
         }
         ::-webkit-scrollbar-thumb{
-            background:var(--colorBlack);
+            background:var(--colorBlue);
         }`
 
     const product = cE("div", style)

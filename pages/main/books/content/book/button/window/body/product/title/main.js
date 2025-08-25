@@ -2,13 +2,12 @@ export default function title(t){
     let style = `
         {
             font-size:17px;
-            color:black;
+            color:var(--colorBlack);
             overflow-x:scroll;
-            width:30%;
             max-height:100%;
         }
         :responsive{
-            width:60%;
+            width:45%;
             font-size:12px;
         }`
 

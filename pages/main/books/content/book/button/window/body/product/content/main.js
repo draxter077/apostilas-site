@@ -13,7 +13,7 @@ export default function content(t){
             width:60%;
         }
         ::-webkit-scrollbar-thumb{
-            background:var(--colorBlack);
+            background:var(--colorBlue);
         }`
 
     const content = cE('div', style)

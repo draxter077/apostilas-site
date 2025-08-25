@@ -9,6 +9,9 @@ export default function img(b){
             align-items:center;
             justify-content:space-around;
             height:100%;
+        }
+        :responsive{
+            width:45%;
         }`
 
     const img = cE("div", style)
