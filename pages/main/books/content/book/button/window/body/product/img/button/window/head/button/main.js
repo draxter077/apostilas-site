@@ -15,7 +15,7 @@ export default function button(){
     button.addEventListener(
         "click",
         async (e) => {
-            e.target.parentElement.parentElement.style.transform = "translateX(-110%)"
+            e.target.parentElement.parentElement.style.transform = "scale(0)"
             await new Promise(resolve => setTimeout(resolve, 550))
             document.getElementById('root').removeChild(e.target.parentElement.parentElement)
         }
