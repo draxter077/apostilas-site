@@ -1,3 +1,5 @@
+import window from "./window/main.js"
+
 export default function button(b){
     let style = `
         {
@@ -21,12 +23,11 @@ export default function button(b){
     button.innerHTML = "Veja as cinco primeiras páginas"
     button.addEventListener(
         "click",
-        () => {
-            let link = document.createElement('a');
-            link.href = "https://apostilas.ph.net.br/assets/preview/" + b.id + ".pdf"
-            link.download = b.title + ".pdf"
-            link.target = "_blank"
-            link.click()
+        async () => {
+            let w = window(b.id)
+            document.getElementById("root").appendChild(w)
+            await new Promise(resolve => setTimeout(resolve, ))
+            w.style.transform = "scale(1)"
         }
     )
     return(button)

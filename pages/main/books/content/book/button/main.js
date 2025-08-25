@@ -26,10 +26,10 @@ export default function button(b){
         "click",
         async () => {
             let w = window(b)
+            document.body.style.overflow = "hidden"
             document.getElementById("root").appendChild(w)
             await new Promise(resolve => setTimeout(resolve, 5))
             w.style.transform = "translateX(0%)"
-            document.body.style.overflow = "hidden"
         }
     )
     return(button)
