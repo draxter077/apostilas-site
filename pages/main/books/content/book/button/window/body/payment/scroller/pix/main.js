@@ -11,6 +11,7 @@ export default function pix(){
             justify-content:space-around;
             width:50%;
             height:100%;
+            overflow-y:scroll;
         }`
 
     const pix = cE("div", style)
