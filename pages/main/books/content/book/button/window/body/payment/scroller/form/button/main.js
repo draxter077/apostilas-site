@@ -55,8 +55,8 @@ export default function button(b){
                 inputError(email)
                 inputError(phone)
             }
-            else if(!email.value.includes("@")){
-                showWindow("Insira seu e-mail corretamente")
+            else if(!(email.value.includes("@gmail.com") || email.value.includes("@hotmail.com") || email.value.includes("@outlook.com") || email.value.includes("@yahoo.com") || email.value.includes("@uol.com"))){
+                showWindow("Insira um e-mail válido")
                 inputError(email)
             }
             else if(phone.value.length < 16){
