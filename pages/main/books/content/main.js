@@ -24,7 +24,7 @@ export default function content(p){
             if(p != undefined){
                 for(let i = 0; i < content.children.length; i++){
                     let c = content.children[i]
-                    if(p.split("_")[0] == c.id){c.children[3].click();;break}
+                    if(p.split("_")[0] == c.id){c.children[3].click();break}
                 }
             }
         }
