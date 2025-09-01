@@ -23,6 +23,7 @@ export default function book(b){
         }`
 
     const book = cE("div", style)
+    book.id = b.id
     book.title = b.title
     book.appendChild(img(b.src))
     book.appendChild(title(b.title))

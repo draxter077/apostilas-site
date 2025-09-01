@@ -25,6 +25,8 @@ export default function button(b){
     button.addEventListener(
         "click",
         async () => {
+            document.defaultView.history.pushState('','',`?${b.id}_${b.title.replaceAll(" ","_")}`)
+
             let w = window(b)
             document.body.style.overflow = "hidden"
             document.getElementById("root").appendChild(w)

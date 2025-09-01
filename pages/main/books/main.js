@@ -1,7 +1,7 @@
 import search from "./search/main.js"
 import content from "./content/main.js"
 
-export default function books(){
+export default function books(p){
     let style = `
         {
             display:flex;
@@ -18,6 +18,6 @@ export default function books(){
     const books = cE("div", style)
     books.id = "Apostilas"
     books.appendChild(search())
-    books.appendChild(content())
+    books.appendChild(content(p))
     return(books)
 }

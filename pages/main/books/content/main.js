@@ -1,7 +1,7 @@
 import books from "./books.js"
 import book from "./book/main.js"
 
-export default function content(){
+export default function content(p){
     let style = `
         {
             display:flex;
@@ -17,5 +17,15 @@ export default function content(){
 
     const content = cE("div", style)
     for(let i = 0; i < books.length; i++){content.appendChild(book(books[i]))}
+
+    window.addEventListener(
+        "load",
+        () => {
+            for(let i = 0; i < content.children.length; i++){
+                let c = content.children[i]
+                if(p == `${c.id}_${c.title.replaceAll(" ","_")}`){c.click;break}
+            }
+        }
+    )
     return(content)
 }

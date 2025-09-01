@@ -15,6 +15,8 @@ export default function button(){
     button.addEventListener(
         "click",
         async (e) => {
+            document.defaultView.history.pushState('','',`/`)
+
             e.target.parentElement.parentElement.style.transform = "translateX(-110%)"
             await new Promise(resolve => setTimeout(resolve, 550))
             document.getElementById('root').removeChild(e.target.parentElement.parentElement)

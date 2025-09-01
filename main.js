@@ -129,10 +129,16 @@ window.cE = function cE(t, stl){
     return(el)
 }
 
-window.construct = function construct(p){
+window.construct = function construct(){
     const root = document.getElementById("root")
     root.innerHTML = ""
-    root.appendChild(main())
+    if(window.location.href.includes("?")){
+        let product = window.location.href.split("?")[1]
+        root.appendChild(main(product))
+    }
+    else{
+        root.appendChild(main())
+    }
 }
 
 window.apiURL = "https://ace-chimp-merry.ngrok-free.app/apostilas"
