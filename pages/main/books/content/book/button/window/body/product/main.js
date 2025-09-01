@@ -26,7 +26,7 @@ export default function product(b){
 
     const product = cE("div", style)
     product.appendChild(img(b))
-    product.appendChild(title(b.title))
+    product.appendChild(title(b))
     product.appendChild(price(b.price))
     product.appendChild(content(b.content))
     return(product)

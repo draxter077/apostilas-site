@@ -6,10 +6,8 @@ export default function input(){
             margin:0px 0px 15px 0px;
             width:50%;
             padding:5px 10px;
-            border-radius:5px;
-            color:var(--colorBlack);
-            box-shadow:0px 0px 2px 0px var(--colorWhite);
-            background:var(--colorWhite);
+            border-bottom:1px solid var(--colorWhite);
+            color:var(--colorWhite);
         }
         :responsive{
             font-size:15px;
@@ -17,7 +15,8 @@ export default function input(){
         }
         ::placeholder{
             font-style:italic;
-            color:var(--colorBlack);
+            color:var(--colorWhite);
+            opacity:0.5;
         }`
 
     const input = cE("input", style)

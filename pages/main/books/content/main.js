@@ -21,9 +21,14 @@ export default function content(p){
     window.addEventListener(
         "load",
         () => {
-            for(let i = 0; i < content.children.length; i++){
-                let c = content.children[i]
-                if(p == `${c.id}_${c.title.replaceAll(" ","_")}`){c.click;break}
+            if(p != undefined){
+                console.log(p)
+                console.log(content.children)
+                console.log(content.children.length)
+                for(let i = 0; i < content.children.length; i++){
+                    let c = content.children[i]
+                    if(p == `${c.id}_${c.title.replaceAll(" ","_")}`){c.children[3].click;console.log(c);break}
+                }
             }
         }
     )

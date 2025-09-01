@@ -1,10 +1,11 @@
-export default function title(t){
+export default function title(b){
     let style = `
         {
             font-size:17px;
             color:var(--colorBlack);
             overflow-x:scroll;
             max-height:100%;
+            text-align:center;
         }
         :responsive{
             width:45%;
@@ -12,6 +13,6 @@ export default function title(t){
         }`
 
     const title = cE('div', style)
-    title.innerHTML = t
+    title.innerHTML = `${b.title}<br>(${b.pages} páginas)`
     return(title)
 }
