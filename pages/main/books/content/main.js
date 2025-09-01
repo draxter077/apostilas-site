@@ -22,12 +22,9 @@ export default function content(p){
         "load",
         () => {
             if(p != undefined){
-                console.log(p)
-                console.log(content.children)
-                console.log(content.children.length)
                 for(let i = 0; i < content.children.length; i++){
                     let c = content.children[i]
-                    if(p == `${c.id}_${c.title.replaceAll(" ","_")}`){c.children[3].click;console.log(c);break}
+                    if(p.split("_")[0] == c.id){c.children[3].click;break}
                 }
             }
         }
