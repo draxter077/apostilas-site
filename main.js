@@ -141,7 +141,7 @@ window.construct = function construct(){
     }
 }
 
-window.apiURL = "https://ace-chimp-merry.ngrok-free.app/apostilas"
+window.apiURL = "https://ace-chimp-merry.ngrok-free.app/licenos"
 
 axios.defaults.headers.common["ngrok-skip-browser-warning"] = "69420"
 document.getElementsByTagName("head")[0].appendChild(document.createElement("style"))
