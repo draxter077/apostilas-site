@@ -6,7 +6,7 @@ export default function input(){
             margin:0px 0px 15px 0px;
             width:50%;
             padding:5px 10px;
-            border-bottom:1px solid var(--colorWhite);
+            border-bottom:1px solid var(--colorYellow);
             color:var(--colorWhite);
         }
         :responsive{

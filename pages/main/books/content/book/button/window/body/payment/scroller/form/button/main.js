@@ -4,10 +4,10 @@ export default function button(b){
     let style = `
         {
             font-size:17px;
-            color:var(--colorWhite);
+            color:var(--colorBlack);
             padding:5px 10px;
             border-radius:5px;
-            background:var(--colorBlue);
+            background:var(--colorWhite);
             cursor:pointer;
             transition:all 0.5s;
         }
@@ -15,8 +15,7 @@ export default function button(b){
             font-size:14px;
         }
         :hover{
-            background:var(--colorWhite);
-            color:var(--colorBlack);
+            transform:translateX(5%);
         }`
 
     const button = cE("button", style)

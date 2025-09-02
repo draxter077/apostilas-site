@@ -13,7 +13,7 @@ export default function input(t){
             font-size:14px;
         }
         :hover,:focus{
-            border-bottom:1px solid var(--colorWhite) !important;
+            border-bottom:1px solid var(--colorYellow) !important;
         }
         ::placeholder{
             font-style:italic;

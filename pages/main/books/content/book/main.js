@@ -18,6 +18,9 @@ export default function book(b){
             border-radius:5px;
             transition:transform 0.5s;
         }
+        :responsive{
+            width:180px;
+        }
         :hover{
             transform:scale(1.05);
         }`

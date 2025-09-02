@@ -10,11 +10,6 @@ export default function categories(){
             flex-wrap:wrap;
             width:100%;
             margin:0px 0px 15px 0px;
-        }
-        :responsive{
-            flex-direction:column;
-            max-height:120px;
-            overflow-x:scroll;
         }`
 
     const categories = cE("div", style)

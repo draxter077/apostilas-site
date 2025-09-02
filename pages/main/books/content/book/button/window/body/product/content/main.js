@@ -5,6 +5,7 @@ export default function content(t){
             color:black;
             overflow-y:scroll;
             width:30%;
+            padding:0px 5px 0px 0px;
             max-height:100%;
             text-align:justify;
         }

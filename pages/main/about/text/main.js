@@ -8,7 +8,8 @@ export default function text(){
         }
         >span{
             padding:5px 10px;
-            background:var(--colorBlue);
+            background:var(--colorYellow);
+            color:var(--colorBlack);
             border-radius:5px;
         }
         :responsive{

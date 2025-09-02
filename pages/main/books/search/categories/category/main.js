@@ -11,16 +11,16 @@ export default function category(t){
             padding:5px 7px;
             margin:5px 2px;
             background:var(--colorBlue);
-            box-shadow:0px 0px 1px 0px var(--colorBlue);
             border-radius:5px;
             cursor:pointer;
-            transition:transform 0.5s;
+            transition:all 0.5s;
         }
         :responsive{
             height:25px;
         }
         :hover{
             transform:translateY(-10%);
+            background:var(--colorYellow);
         }`
 
     const category = cE("div", style)

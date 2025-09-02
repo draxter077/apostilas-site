@@ -5,7 +5,7 @@ export default function button(b){
         {
             font-size:15px;
             background:var(--colorBlue);
-            padding:2px 5px;
+            padding:5px 10px;
             border-radius:5px;
             color:var(--colorWhite);
             margin:5px 0px 0px 0px;
@@ -20,7 +20,7 @@ export default function button(b){
         }`
 
     const button = cE("button", style)
-    button.innerHTML = "Veja as cinco primeiras páginas"
+    button.innerHTML = "Veja as primeiras páginas"
     button.addEventListener(
         "click",
         async () => {

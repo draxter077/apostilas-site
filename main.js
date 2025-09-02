@@ -176,16 +176,13 @@ cE("root", `html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquo
     	--colorWhite:rgb(210, 210, 210);
     	--colorBlack:rgb(20,30,45);
         --colorBlue:rgb(80,130,190);
+        --colorYellow:rgb(244,227,44);
     	--transitionTime:0.5s;
     	--animationDelay0:0s;
     }
-    @font-face{
-        font-family:"Quicksand";
-        src:url("./assets/font/Quicksand_Book.otf");
-    }
     body{
     	box-sizing:border-box;
-    	font-family:"Quicksand";
+    	font-family:"Montserrat";
     	background:var(--colorBlack);
     	cursor:default;
 	    user-select:none;

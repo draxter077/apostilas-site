@@ -1,15 +1,15 @@
 export default function title(t){
     let style = `
         {
-            font-size:18px;
+            font-size:15px;
             color:var(--colorWhite);
-            max-height:50px;
+            max-height:58px;
             width:100%;
             overflow:hidden;
         }
         :responsive{
-            font-size:15px;
-            max-height:43px;
+            font-size:12px;
+            max-height:46px;
         }`
 
     const title = cE('div', style)

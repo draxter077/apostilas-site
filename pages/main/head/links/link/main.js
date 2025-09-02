@@ -6,13 +6,14 @@ export default function link(t){
             color:var(--colorWhite);
             margin:0px 20px;
             cursor:pointer;
-            transition:transform 0.5s;
+            transition:all 0.5s;
         }
         :responsive{
             font-size:15px;
         }
         :hover{
             transform:translateY(10%);
+            color:var(--colorYellow);
         }`
 
     const link = cE("div", style)

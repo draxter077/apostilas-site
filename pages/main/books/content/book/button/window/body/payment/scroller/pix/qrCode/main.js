@@ -3,6 +3,9 @@ export default function qrCode(){
         {
             height:30%;
             aspect-ratio:1;
+            padding:10px;
+            background:var(--colorWhite);
+            border-radius:10px;
         }
         :responsive{
             height:30%;

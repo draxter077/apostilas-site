@@ -10,6 +10,6 @@ export default function photo(){
         }`
 
     const photo = cE("img", style)
-    photo.src = "./assets/brand/logo.png"
+    photo.src = "./assets/brand/logoname.png"
     return(photo)
 }
