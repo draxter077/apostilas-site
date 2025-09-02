@@ -6,6 +6,6 @@ export default function content(id){
         }`
     
     const content = cE("iframe", style)
-    content.src = `https://docs.google.com/viewer?url=https://apostilas.ph.net.br/assets/preview/${id}.pdf&embedded=true`
+    content.src = `https://docs.google.com/viewer?url=https://www.licenos.com.br/assets/preview/${id}.pdf&embedded=true`
     return(content)
 }
