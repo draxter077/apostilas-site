@@ -1,4 +1,5 @@
 import main from "./pages/main/main.js"
+import apostila from "./pages/apostila/main.js"
 
 window.cE = function cE(t, stl){
     function addClass(){
@@ -132,9 +133,14 @@ window.cE = function cE(t, stl){
 window.construct = function construct(){
     const root = document.getElementById("root")
     root.innerHTML = ""
-    if(window.location.href.includes("?")){
-        let product = window.location.href.split("?")[1]
-        root.appendChild(main(product))
+    if(window.location.href.split("br/")[1] != undefined && window.location.href.split("br/")[1] != ""){
+        let path = window.location.href.split("br/")[1]
+        if(path.split("?")[0] == "apostila"){
+            root.appendChild(apostila(path.split("?")[1].split("_")[0]))
+        }
+        else{
+            root.appendChild(main(path))
+        }
     }
     else{
         root.appendChild(main())
