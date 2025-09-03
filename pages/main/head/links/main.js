@@ -10,7 +10,8 @@ export default function links(){
 
     const links = cE("div", style)
     links.appendChild(link("Apostilas"))
-    links.appendChild(link("Sobre"))
+    links.appendChild(link("FAQ"))
     links.appendChild(link("Contato"))
+    links.appendChild(link("Sobre"))
     return(links)
 }

@@ -1,7 +1,8 @@
 import head from "./head/main.js"
 import books from "./books/main.js"
-import about from "./about/main.js"
+import faq from "./faq/main.js"
 import contact from "./contact/main.js"
+import about from "./about/main.js"
 import foot from "./foot/main.js"
 
 export default function main(p){
@@ -18,8 +19,9 @@ export default function main(p){
     const main = cE("div", style)
     main.appendChild(head())
     main.appendChild(books(p))
-    main.appendChild(about())
+    main.appendChild(faq())
     main.appendChild(contact())
+    main.appendChild(about())
     main.appendChild(foot())
 
     window.addEventListener("load", () => main.style.opacity = 1)

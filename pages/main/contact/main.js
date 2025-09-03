@@ -8,7 +8,7 @@ export default function contact(){
             align-items:center;
             justify-content:space-around;
             width:80%;
-            margin:7.5vh 0px 0px 0px;
+            margin:7.5vh 0px;
         }
         :responsive{
             flex-wrap:wrap;
