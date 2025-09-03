@@ -1,17 +1,32 @@
+import head from "./head/main.js"
+import faq from "./faq/main.js"
+import contact from "./contact/main.js"
+import about from "./about/main.js"
+import foot from "./foot/main.js"
+
 import books from "../../books.js"
 
 export default function apostila(id){
     let style = `
         {
+            display:flex;
+            flex-direction:column;
+            align-items:center;
             width:100%;
-            height:100%;
-            font-size:40px;
-            color:var(--colorWhite);
+            opacity:0;
+            transition:opacity 0.5s;
         }`
 
     const apostila = cE("div", style)
-
     let b = books[Number(id)]
-    apostila.innerHTML = b.title
+    alert(b.title)
+
+    apostila.appendChild(head())
+    apostila.appendChild(faq())
+    apostila.appendChild(contact())
+    apostila.appendChild(about())
+    apostila.appendChild(foot())
+
+    window.addEventListener("load", () => apostila.style.opacity = 1)
     return(apostila)
 }
