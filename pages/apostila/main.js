@@ -1,3 +1,5 @@
+import books from "../../books.js"
+
 export default function apostila(id){
     let style = `
         {
@@ -8,6 +10,8 @@ export default function apostila(id){
         }`
 
     const apostila = cE("div", style)
-    apostila.innerHTML = id
+
+    let b = books[Number(id)]
+    apostila.innerHTML = b.title
     return(apostila)
 }

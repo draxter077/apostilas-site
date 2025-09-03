@@ -1,4 +1,4 @@
-import books from "./books.js"
+import books from "../../../../books.js"
 import book from "./book/main.js"
 
 export default function content(p){
@@ -21,12 +21,7 @@ export default function content(p){
     window.addEventListener(
         "load",
         () => {
-            if(p != undefined){
-                for(let i = 0; i < content.children.length; i++){
-                    let c = content.children[i]
-                    if(p.split("_")[0] == c.id){c.children[3].click();break}
-                }
-            }
+            if(p != undefined){document.getElementById(p.split("_")[0]).click()}
         }
     )
     return(content)
