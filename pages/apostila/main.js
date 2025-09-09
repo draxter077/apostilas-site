@@ -1,4 +1,5 @@
 import head from "./head/main.js"
+import product from "./product/main.js"
 import faq from "./faq/main.js"
 import contact from "./contact/main.js"
 import about from "./about/main.js"
@@ -19,11 +20,11 @@ export default function apostila(id){
 
     const apostila = cE("div", style)
     let b = books[Number(id)]
-    alert(b.title)
 
     apostila.appendChild(head())
-    apostila.appendChild(faq())
+    apostila.appendChild(product(b))
     apostila.appendChild(contact())
+    apostila.appendChild(faq())
     apostila.appendChild(about())
     apostila.appendChild(foot())
 

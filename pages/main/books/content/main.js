@@ -1,7 +1,7 @@
 import books from "../../../../books.js"
 import book from "./book/main.js"
 
-export default function content(p){
+export default function content(){
     let style = `
         {
             display:flex;
@@ -17,12 +17,5 @@ export default function content(p){
 
     const content = cE("div", style)
     for(let i = 0; i < books.length; i++){content.appendChild(book(books[i]))}
-
-    window.addEventListener(
-        "load",
-        () => {
-            if(p != undefined){document.getElementById(p.split("_")[0]).click()}
-        }
-    )
     return(content)
 }

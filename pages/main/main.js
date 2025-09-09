@@ -5,7 +5,7 @@ import contact from "./contact/main.js"
 import about from "./about/main.js"
 import foot from "./foot/main.js"
 
-export default function main(p){
+export default function main(){
     let style = `
         {
             display:flex;
@@ -18,7 +18,7 @@ export default function main(p){
 
     const main = cE("div", style)
     main.appendChild(head())
-    main.appendChild(books(p))
+    main.appendChild(books())
     main.appendChild(faq())
     main.appendChild(contact())
     main.appendChild(about())

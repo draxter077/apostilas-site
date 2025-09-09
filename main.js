@@ -139,7 +139,7 @@ window.construct = function construct(){
             root.appendChild(apostila(path.split("?")[1].split("_")[0]))
         }
         else{
-            root.appendChild(main(path))
+            root.appendChild(main())
         }
     }
     else{
