@@ -16,6 +16,7 @@ export default function right(b){
         :responsive{
             width:100%;
             height:fit-content;
+            margin:5svh 0px;
         }`
 
     const right = cE("div", style)

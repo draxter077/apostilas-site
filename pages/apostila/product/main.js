@@ -13,7 +13,7 @@ export default function product(b){
             margin:5vh 0px;
         }
         :responsive{
-            flex-direction:column-reverse;
+            flex-direction:column;
             height:fit-content;
         }`
 

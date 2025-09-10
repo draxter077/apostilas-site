@@ -17,7 +17,7 @@ export default function button(b){
         }
         :responsive{
             font-size:17px;
-            margin:40px 0px;
+            margin:40px 0px 0px;
             width:100%;
         }`
 
