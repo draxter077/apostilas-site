@@ -7,12 +7,15 @@ export default function title(){
             display:flex;
             flex-direction:row;
             align-items:center;
+            cursor:pointer;
         }
         :responsive{
             margin:0px 0px 10px 0px;
         }`
 
-    const title = cE("div", style)
+    const title = cE("a", style)
+    title.href = "https://www.licenos.com.br"
+    title.target = "_self"
     title.appendChild(logo())
     title.appendChild(name())
     return(title)
