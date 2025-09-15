@@ -17,6 +17,7 @@ export default function contact(){
 
     const contact = cE("div", style)
     contact.id = "Contato"
+    contact.appendChild(link("instagram", "@licenos_edu"))
     contact.appendChild(link("email", "contato@licenos.com.br"))
     contact.appendChild(link("whatsapp", "(41) 99501-4187"))
     return(contact)

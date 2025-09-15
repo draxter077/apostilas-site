@@ -1,5 +1,6 @@
 import head from "./head/main.js"
 import product from "./product/main.js"
+import recommendations from "./recommendations/main.js"
 import faq from "./faq/main.js"
 import contact from "./contact/main.js"
 import about from "./about/main.js"
@@ -23,6 +24,7 @@ export default function apostila(id){
 
     apostila.appendChild(head())
     apostila.appendChild(product(b))
+    apostila.appendChild(recommendations())
     apostila.appendChild(contact())
     apostila.appendChild(faq())
     apostila.appendChild(about())

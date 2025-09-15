@@ -10,7 +10,7 @@ export default function book(b){
             flex-direction:column;
             justify-content:space-between;
             align-items:center;
-            height:49%;
+            height:100%;
             width:200px;
             margin:0px 5px;
             padding:10px;
