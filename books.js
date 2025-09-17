@@ -61,6 +61,6 @@ export default
         author:"Prof. Paulo Sérgio",
         pages:348,
         content:"Essa apostila contém questões com gabarito sobre todos os temas abordados nos sextos, sétimos, oitavos e nonos anos, segundo o BNCC.",
-        price:199.9
+        price:99.9
     }
 ]
