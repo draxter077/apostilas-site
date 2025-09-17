@@ -11,11 +11,14 @@ export default function content(){
             flex-wrap:wrap;
             overflow-x:scroll;
             width:100%;
-            height:100%;
+            height:750px;
             padding:10px 0px;
+        }
+        :responsive{
+            height:500px;
         }`
 
     const content = cE("div", style)
-    for(let i = 0; i < books.length; i++){content.appendChild(book(books[i]))}
+    for(let i = 0; i < books.length; i++){content.appendChild(book(books[books.length - i - 1]))}
     return(content)
 }

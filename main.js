@@ -143,7 +143,7 @@ window.construct = function construct(){
         }
     }
     else{
-        root.appendChild(apostila(0))
+        root.appendChild(main())
     }
 }
 

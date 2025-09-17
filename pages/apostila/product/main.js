@@ -9,7 +9,7 @@ export default function product(b){
             align-items:center;
             justify-content:space-between;
             width:90%;
-            height:70svh;
+            height:600px;
             margin:5vh 0px;
         }
         :responsive{

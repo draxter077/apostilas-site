@@ -18,7 +18,7 @@ export default function pix(){
     const pix = cE("div", style)
     pix.appendChild(disclaimer())
     pix.appendChild(qrCode())
-    pix.appendChild(copy())
+    //pix.appendChild(copy())
     pix.appendChild(bye())
     return(pix)
 }

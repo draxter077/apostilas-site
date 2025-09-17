@@ -44,5 +44,23 @@ export default
         pages:76,
         content:"Essa apostila contém questões com gabarito e explicações sobre A Pré-História é a Origem da Humanidade, Hominídeos: Os Ancestrais da Humanidade, As Teorias do Surgimento dos Seres Humanos, Pré-História, A Vida Humana no Paleolítico, Modos de Vida e Modificações da Natureza, A Pré-História e a Origem da Agricultura, O Neolítico e a Revolução Agrícola: Mudanças e Permanências nas Paisagens, A Pré-História e a Origem dos Metais, A Idade dos Metais, Os Objetos de Cerâmica na Antiguidade, A Transição para as Sociedades Urbanas, A Origem da Escrita e Sua Relação com o Nascimento do Estado, Povoamento das Américas: Uma História Cheia de Surpresas, As Teorias do Surgimento do Homem Americano, A Chegada dos Seres Humanos à América, Povoamento da América e do Território Brasileiro, Vestígios Arqueológicos em Minas Gerais sobre o Homem Pré-Histórico, A Importância dos Vestígios Arqueológicos: Luzia e Lagoa Santa, Antigos Povos da Mesoamérica e dos Andes, As Sociedades Pré-Colombianas: Maias, Incas e Astecas, Hábitos Culturais dos Povos Indígenas do Território Brasileiro, Heranças Culturais, Científicas e Econômicas das Civilizações Americanas, Patrimônios Arqueológicos, O Surgimento das Primeiras Cidade e do Comércio.",
         price:34.9
+    },
+    {
+        id:5,
+        src:"./assets/face/5.png",
+        title:"Combo Completo (todos os anos) - História",
+        author:"Prof. Paulo Sérgio e Prof. Lucas Maurício",
+        pages:1194,
+        content:"Essa apostila contém questões com gabarito e explicações sobre Pré-História, Antiguidade, Idade Média, Idade Moderna e Contemporânea, passando por temas relevantes como A Revolução Francesa, a Ditadura Militar no Brasil, As cidades gregas de Atenas e Esparta, As Grandes Navegações, Renascimento, e muito mais!",
+        price:199.9
+    },
+    {
+        id:6,
+        src:"./assets/face/6.png",
+        title:"Combo Completo (todos os anos) - Geografia",
+        author:"Prof. Paulo Sérgio",
+        pages:348,
+        content:"Essa apostila contém questões com gabarito sobre todos os temas abordados nos sextos, sétimos, oitavos e nonos anos, segundo o BNCC.",
+        price:199.9
     }
 ]

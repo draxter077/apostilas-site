@@ -1,7 +1,7 @@
 export default function disclaimer(c){
     let style = `
         {
-            max-height:25%;
+            max-height:40%;
             width:85%;
             color:var(--colorWhite);
             font-size:18px;
