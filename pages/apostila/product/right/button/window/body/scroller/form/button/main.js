@@ -67,7 +67,7 @@ export default function button(b){
                     .then(r => {
                         let pixWindow = e.target.parentElement.parentElement.children[1]
                         pixWindow.children[1].src = `https://api.qrserver.com/v1/create-qr-code/?data=${r.data.pixCode}&amp;size=150x150`
-                        pixWindow.children[2].innerHTML = r.data.pixCode
+                        //pixWindow.children[2].innerHTML = r.data.pixCode
                         
                         e.target.parentElement.parentElement.style.transform = "translateX(-50%)"
                     })
