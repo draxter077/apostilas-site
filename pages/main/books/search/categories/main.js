@@ -19,7 +19,7 @@ export default function categories(){
     categories.appendChild(category("Geografia"))
     categories.appendChild(category("Sociologia"))
     categories.appendChild(category("Filosofia"))
-    categories.appendChild(category("Religião"))
+    categories.appendChild(category("Ensino Religioso"))
     categories.appendChild(category("Biologia"))
     categories.appendChild(category("Física"))
     categories.appendChild(category("Química"))
