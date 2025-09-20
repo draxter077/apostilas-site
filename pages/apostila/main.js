@@ -20,7 +20,8 @@ export default function apostila(id){
         }`
 
     const apostila = cE("div", style)
-    let b = books[Number(id)]
+    let b
+    for(let i = 0; i < books.length; i++){if(books[i].id == id){b = books[i];break}}
 
     apostila.appendChild(head())
     apostila.appendChild(product(b))
