@@ -1,5 +1,6 @@
 import main from "./pages/main/main.js"
 import apostila from "./pages/apostila/main.js"
+import test from "./pages/test/main.js"
 
 window.cE = function cE(t, stl){
     function addClass(){
@@ -137,6 +138,9 @@ window.construct = function construct(){
         let path = window.location.href.split("br/")[1]
         if(path.split("?")[0] == "apostila"){
             root.appendChild(apostila(path.split("?")[1].split("_")[0]))
+        }
+        else if(path.split("?")[0] == "test"){
+            root.appendChild(test())
         }
         else{
             root.appendChild(main())
